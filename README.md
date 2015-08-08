@@ -2,7 +2,7 @@
 
 ## Features
 - projects
-- links (to your linkedIn)
+- links (to your LinkedIn, GitHub, etc.)
 - about
 - blog (provided by the package - [ryw:blog](https://atmospherejs.com/ryw/blog))
 - admin (provided by the package  [yogiben:admin](https://atmospherejs.com/yogiben/admin))
