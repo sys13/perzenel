@@ -13,7 +13,8 @@
 1. Create a Google Analytics account at [https://www.google.com/analytics/](https://www.google.com/analytics/) - note this for the ga section of your settings files
 1. Edit settings_prod.json with your own information
 1. (optional) Edit the favicon in public/favicon and client/main.html
-1. Deploy it with the meteor deploy command
+1. Change the site names in deploy.sh
+1. Deploy it with: 'sh ./deploy prod'
 1. Reset your password at /forgot-password
 1. Sign in to your website at /signin (default password is wwwwww)
 1. Add projects and links at /admin
