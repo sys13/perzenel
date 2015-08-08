@@ -9,6 +9,7 @@
 
 ## How to Use It
 
+1. Make sure you have Meteor installed - [MeteorJS](https://meteorjs.com)
 1. Copy the settings_dev.json and call it settings_prod.json
 1. Create a Google Analytics account at [https://www.google.com/analytics/](https://www.google.com/analytics/) - note this for the ga section of your settings files
 1. Edit settings_prod.json with your own information
