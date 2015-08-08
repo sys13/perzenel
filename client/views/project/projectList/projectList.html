@@ -1,0 +1,24 @@
+<template name="projectList">
+<div class="page">
+  <div class="row">
+    <div class="col-md-4">
+      <h1>Projects</h1>
+      <div class="list-group">
+        {{>_projectList}}
+      </div>
+    </div>
+  </div>
+</div>
+</template>
+
+<template name="_projectList">
+  {{#each projects}}
+    <a href="{{pathFor 'project' slug}}" class="list-group-item">
+      <h3 class="list-group-item-heading">{{name}}</h3>
+      <div class="clearfix">
+        <span>{{tagline}}</span>
+        <span class="pull-right home-date">{{date}}</span>
+      </div>
+    </a>
+  {{/each}}
+</template>

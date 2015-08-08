@@ -1,0 +1,37 @@
+<template name="home">
+<div class="page">
+  <div class="row">
+    <div class="col-md-4">
+      <h2>Projects</h2>
+      {{>_projectList}}
+      <a class="btn btn-primary home-link-button" href="{{pathFor 'projectList'}}">View Projects</a>
+    </div>
+    <div class="col-md-4">
+      <h2>Blog Posts</h2>
+      <div class="list-group">
+      {{#each posts}}
+        <a class="list-group-item" href="{{pathFor 'blogShow'}}">
+          <h3 class="list-group-item-heading">{{title}}</h3>
+          <div class="clearfix">
+            <span>{{excerpt}}</span>
+            <span class="pull-right home-date">{{publishedDate}}</span>
+          </div>
+        </a>
+      {{/each}}
+      <a class="btn btn-primary home-link-button" href="{{pathFor 'blogIndex'}}">View Blog</a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="well about-area">
+        <h2 class="about-title">About {{shortName}}</h2>
+        <p>Daniel is a 25 year old Canadian developer/dreamer who's currently residing in Taipei, Taiwan.</p>
+        <a class="btn btn-primary home-link-button" href="{{pathFor 'about'}}">Read more</a>
+      </div>
+      <div class="well">
+        <h2 class="about-title">Links</h2>
+        {{>_linksList}}
+      </div>
+    </div>
+  </div>
+</div>
+</template>

@@ -1,0 +1,31 @@
+<template name="_header">
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="{{pathFor 'home'}}">
+          {{fullName}}
+        </a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="{{pathFor 'projectList'}}" class="nav-link">Projects</a></li>
+          <li><a href="/blog" class="nav-link">Blog</a></li>
+          <li><a href="{{pathFor 'about'}}" class="nav-link">About</a></li>
+          {{#if currentUser}}
+            <li><a href="/admin/blog" class="nav-link">Blog Admin</a></li>
+            <li><a href="/admin" class="nav-link">Admin</a></li>
+            <li><a href="#" class="nav-link log-out">Log Out</a></li>
+          {{/if}}
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div><!--/.container-fluid -->
+  </nav>
+</template>

@@ -1,0 +1,45 @@
+# Meteor packages used by this project, one per line.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+meteor-platform
+alanning:roles
+iron:router
+meteorhacks:subs-manager
+meteorhacks:kadira
+aldeed:collection2
+aldeed:autoform
+accounts-password
+less
+nemo64:bootstrap
+zimme:bootstrap-growl
+natestrauser:font-awesome
+accounts-ui
+useraccounts:bootstrap
+reactive-var
+natestrauser:select2
+zimme:select2-bootstrap3-css
+slava:reactive-array
+gfk:mailgun-api
+meteorhacks:ssr
+momentjs:moment
+meteorhacks:zones
+jparker:gravatar
+matb33:collection-hooks
+ccorcos:transitioner
+browser-policy
+aldeed:template-extension
+npm-bcrypt
+random
+msavin:mongol
+aldeed:simple-schema
+chrismbeckett:toastr
+reywood:iron-router-ga
+ctjp:meteor-bootstrap-switch
+ryw:blog
+markdown
+djedi:sanitize-html
+mpowaga:autoform-summernote
+fortawesome:fontawesome
+yogiben:admin
