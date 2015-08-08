@@ -30,6 +30,7 @@
 - Diqsus isn't working for me. Either I'm doing something wrong or there's something wrong with [ryw:blog](https://atmospherejs.com/ryw/blog)
 - For the favicon I used this [site](http://www.favicon-generator.org/)
 - if an embed isn't working, you may need to edit the browser-policy in server/lib/settings.js
+- if text in your projects doesn't look right, use the clear formatting button, or remove all the stuff you don't need in the HTML view
 
 ## Creator
 
