@@ -30,3 +30,7 @@
 - Diqsus isn't working for me. Either I'm doing something wrong or there's something wrong with [ryw:blog](https://atmospherejs.com/ryw/blog)
 - For the favicon I used this [site](http://www.favicon-generator.org/)
 - if an embed isn't working, you may need to edit the browser-policy in server/lib/settings.js
+
+## Creator
+
+Created by [Daniel Arrizza](http://danielarrizza.com) for his own personal website. One day, he got fed up with WordPress and decided to Meteor on ahead!
