@@ -15,10 +15,11 @@
 1. Edit settings_prod.json with your own information
 1. Add your location info to settings_prod.js by copying embed code from maps.google.comm
 1. (optional) Edit the favicon in public/favicon and client/main.html
+1. Run it locally with 'meteor --settings settings_dev.json'
 1. Change the site names in deploy.sh
 1. Deploy it with: 'sh ./deploy prod'
-1. Reset your password at /forgot-password
 1. Sign in to your website at /signin (default password is wwwwww)
+1. Change your password at /admin/Users > edit > change password
 1. Add projects and links at /admin
 1. Add blog articles at /admin/blog
 1. Share it with everyone!
