@@ -55,7 +55,7 @@ echo "-----------------------------------------------------------"
 METEOR_APP_URL=$1
 TEMPFILE=URL.tmp
 cd $METEOR_PROJECT_DIR
-# HACK: we have to let meteor mongo have stdout to prompt for password so we
+# we have to let meteor mongo have stdout to prompt for password so we
 # can't use $(...) and instead tee and tail the result
 meteor mongo --url $METEOR_APP_URL | tee $TEMPFILE
 
