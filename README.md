@@ -32,6 +32,7 @@
 - For the favicon I used this [site](http://www.favicon-generator.org/)
 - if an embed isn't working, you may need to edit the browser-policy in server/lib/settings.js
 - if text in your projects doesn't look right, use the clear formatting button, or remove all the stuff you don't need in the HTML view
+- embeds will look nicer if you add bootstrap [responsive embed code](http://getbootstrap.com/components/#responsive-embed) (example in settings_dev.json)
 
 ## Creator
 
