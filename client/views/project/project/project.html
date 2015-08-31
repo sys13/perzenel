@@ -4,7 +4,9 @@
     <div class="col-md-5">
         <h1>{{project.name}}</h1>
         <h4>{{project.tagline}}</h4>
-        <a class="btn btn-default" href="/admin/Projects">Edit</a>
+        {{#if currentUser}}
+          <a class="btn btn-default" href="/admin/Projects">Edit</a>
+        {{/if}}
         {{{project.content}}}
     </div>
     <div class="col-md-4 col-md-offset-3">
