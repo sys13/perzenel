@@ -1,8 +1,9 @@
 <template name="_linksList">
   {{#each links}}
     <div>
-      <strong>{{name}}:</strong>
-      <a href="{{url}}">{{urlDisplayText}}</a>
+      <strong>
+        {{name}}: <a href="{{url}}">{{urlDisplayText}}</a>
+      </strong>
     </div>
   {{/each}}
 </template>

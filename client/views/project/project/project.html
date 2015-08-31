@@ -30,8 +30,9 @@
   <!-- Code Repository -->
   {{#if project.codeRepo}}
   <div>
-    <strong>Code Repository: </strong>
-    <a href="{{project.codeRepo}}">{{project.codeRepo}}</a>
+    <strong>Code Repository:
+      <a href="{{project.codeRepo}}">{{project.codeRepo}}</a>
+    </strong>
   </div>
   {{/if}}
 
@@ -41,7 +42,7 @@
       <strong>Collaborators:</strong>
       {{#each collabs}}
         {{#if value.url}}
-          <a href="{{value.url}}">{{value.name}}</a>{{#if notLast}}, {{/if}}
+          <strong><a href="{{value.url}}">{{value.name}}</a>{{#if notLast}}, {{/if}}</strong>
         {{else}}
           <span>{{value.name}}{{#if notLast}}, {{/if}}</span>
         {{/if}}
